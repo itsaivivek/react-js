@@ -1,0 +1,15 @@
+.header{
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  background-color: #a3a3a3;
+  padding: 10px;
+}
+
+.btn{
+  background-color: royalblue;
+  padding: 6px 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
