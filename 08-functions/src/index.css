@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 15px;
+  gap: 10px;
+}
+
+.parent button{
+  background-color: crimson;
+  color: white;
+  padding: 6px 10px;
+  width: fit-content;
+}
+
+.parent input{
+  padding: 6px;
+  outline: none;
+}
