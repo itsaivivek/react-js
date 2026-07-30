@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.example button{
+  background-color: crimson;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: medium;
+}
+
+.counter{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+  
+}
+
+.counter div{
+  display: flex;
+  gap: 20px;
+}
+
+.counter div button{
+  background-color: rgba(0, 255, 255, 0.804);
+  font-size: 14px;
+  font: 900;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
