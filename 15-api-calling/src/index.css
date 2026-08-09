@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+button{
+  padding: 10px 30px;
+  font-size: 24px;
+}
+
+.user{
+  padding: 8px;
+  background-color: plum;
+  border-radius: 10px;
+  width: 20%;
+}
+
+.userContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
